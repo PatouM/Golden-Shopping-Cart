@@ -1,110 +1,118 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap");
 
-*{
+* {
   margin: 0;
-  padding: 0;  
+  padding: 0;
 }
-body{
-
-  background-position: full cover;
+body {
   box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
-
+  font-family: poppins, sans-serif;
 }
-header{
-  background-image: url(https://www.scienceabc.com/wp-content/uploads/2016/05/shopping-cart.jpg);
-  position: relative;
-  text-align: center;
-  height: 60vh;
-  width: 100%;
+
+header {
+  background-image: url(https://media.istockphoto.com/photos/online-shopping-and-payment-man-using-tablet-with-shopping-cart-icon-picture-id1206800961?k=20&m=1206800961&s=612x612&w=0&h=hcPoUKhWtzHXR3PIAHVgPVZDZaO7R8yZ1wNPkUSsgwU=);
   background-size: cover;
-  }
-
-h1{
-  padding: 30px;
+  height: 40vh;
+  width: 100%;
+}
+h1 {
   color: #ebc25b;
-  background-image: linear-gradient(60deg, #3b3412 0%, #485563 100%);
-  margin-bottom: 30px ;
+  margin-bottom: 30px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 500;
 }
 
-p{
+h2{
+  color: #b88608;
+  font-size: 25px;
+  text-align: left;
+}
+
+p {
   text-align: center;
-  font-size: 40px;
+  font-size: 20px;
   margin: 50px;
   color: rgba(8, 8, 8, 0.986);
   background-color: #b88608;
 }
 
-#add_drill{ 
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-#add_psi{
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-#add_dmm{
-  display: flex;
-  flex-direction: column;
-  margin: 20px;
-  font-size: 30px;
-  font-weight: 700;
-}
-
-.img{
-  width: 30%;
+.img {
+  width: 20%;
   align-items: center;
-  margin: 0 20px;
+  margin: 0 50px;
 }
 
-button{
-  color:#e2eeebf4;
+button {
+  color: #e2eeebf4;
   background-color: #b4840cec;
-  padding: 3px 5px;
-  border-radius: 30px;
-  font-size: 20px;
-  margin: 20px;
+  font-size: 15px;
   text-align: center;
+  padding: 3px 15px;
 }
 
-#add_items{
+#add_items {
   color: rgb(231, 15, 15);
   margin-top: 20px;
   margin-left: 60px;
   font-size: 30px;
 }
 
-.item{
+.item {
   display: flex;
   padding: 10px;
   justify-content: space-between;
   align-items: center;
-  flex: 1;
+  flex-direction: column;
+  margin: 20px;
+  font-size: 30px;
+  font-weight: 700;
 }
 
+.container {
+  display: flex;
+  border-top: 3px solid #b88608;
+}
+.shocart h2 {
+  color: #b88608;
+  font-size: 25px;
+  text-align: left;
+}
 
+.box_items {
+  width: 50%;
+  margin: 5px 2.5px 5px 5px;
+}
 
+.total {
+  width: 50%;
+  margin: 5px 5px 5px 2.5px;
+}
+.total:hover {
+  box-shadow: gold;
+}
 
+.total ol li {
+  font-size: 15px;
+}
 
+h2 {
+  color: rgb(128, 209, 34);
+  font-size: 15px;
+  text-align: center;
+}
 
-#footer{
+#footer {
   background-image: linear-gradient(60deg, #1a1d20 0%, #485563 100%);
 }
-#footer .footer{
+#footer .footer {
   min-height: 150px;
   flex-direction: column;
   padding-top: 50px;
   padding-bottom: 10px;
 }
-#footer h2{
+
+#footer h3 {
   color: #ebc25b;
   font-weight: 500;
   font-size: 20px;
@@ -112,4 +120,9 @@ button{
   margin-top: 10px;
   margin-bottom: 10px;
   text-align: center;
+}
+span {
+  margin: 5px;
+  padding: 0 5px;
+  font-size: 15px;
 }
